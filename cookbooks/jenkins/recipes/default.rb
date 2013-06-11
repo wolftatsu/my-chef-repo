@@ -2,13 +2,13 @@
 # Cookbook Name:: jenkins
 # Recipe:: default
 #
-# Copyright 2013, YOUR_COMPANY_NAME
+# Copyright 2013, tatsuhiko-iino
 #
 # All rights reserved - Do Not Redistribute
 #
 
 include_recipe "apt"
-include_recipe "java"
+# include_recipe "java"
  
 apt_repository "jenkins" do
   uri "http://pkg.jenkins-ci.org/debian"
